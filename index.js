@@ -114,10 +114,11 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Implicit binding - When you refer to your "current" object (the left of the . when calling the function)
+  2. Explicit binding - When you use .call or .apply or .bind to refer 'this' when calling a function
+  3. new binding - When you create an object with the 'new' keyword, and that object refers to itself when requesting 'this'
+  4. window binding - When you try to refer to 'this' in a function but javascripts automatically refers it to the window object
+  this can be stopped by using strict mode
 */
 
 ///////// END OF CHALLENGE /////////
